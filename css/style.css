@@ -103,7 +103,7 @@ textarea {
     top: calc(100% + 1.5rem);
     height: 5px;
     width: 3rem;
-    background: #0062b9;
+    background: #1f2028;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 5px; }
@@ -145,7 +145,7 @@ textarea {
   font-weight: 700;
   border-radius: 5px;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
-  transition: transform .3s; }
+  transition: transform 0.3s; }
   .btn:hover {
     transform: translateY(-3px); }
   .btn--bg {
@@ -155,12 +155,12 @@ textarea {
     padding: 1.5rem 5rem;
     font-size: 1.6rem; }
   .btn--theme {
-    background: #0062b9;
+    background: #1f2028;
     color: #fff; }
   .btn--theme-inv {
-    color: #0062b9;
+    color: #1f2028;
     background: #fff;
-    border: 2px solid #0062b9;
+    border: 2px solid #1f2028;
     box-shadow: none;
     padding: calc(1.5rem - 2px) calc(5rem - 2px); }
 
@@ -185,7 +185,7 @@ textarea {
 
 .home-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(31, 32, 40, 0.8), rgba(31, 32, 40, 0.8)), url(../../assets/svg/common-bg.svg);
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -323,7 +323,7 @@ textarea {
           font-size: 1.7rem; } }
 
 .contact {
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(31, 32, 40, 0.8), rgba(31, 32, 40, 0.8)), url(../../assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center; }
   .contact__form-container {
@@ -404,7 +404,7 @@ textarea {
 
 .project-cs-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(31, 32, 40, 0.8), rgba(31, 32, 40, 0.8)), url(../../assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center;
   position: relative; }
@@ -513,16 +513,16 @@ textarea {
     align-items: center;
     cursor: pointer;
     color: #333;
-    transition: color .3s; }
+    transition: color 0.3s; }
     .header__logo-container:hover {
-      color: #0062b9; }
+      color: #1f2028; }
   .header__logo-img-cont {
     width: 5rem;
     height: 5rem;
     border-radius: 50px;
     overflow: hidden;
     margin-right: 1.5rem;
-    background: #0062b9; }
+    background: #1f2028; }
     @media only screen and (max-width: 56.25em) {
       .header__logo-img-cont {
         width: 4.5rem;
@@ -552,9 +552,9 @@ textarea {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
-    transition: color .3s; }
+    transition: color 0.3s; }
     .header__link:hover {
-      color: #0062b9; }
+      color: #1f2028; }
     @media only screen and (max-width: 56.25em) {
       .header__link {
         padding: 3rem 1.8rem;
@@ -577,7 +577,7 @@ textarea {
     top: 100%;
     visibility: hidden;
     opacity: 0;
-    transition: all .3s;
+    transition: all 0.3s;
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1); }
@@ -599,9 +599,9 @@ textarea {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
-    transition: color .3s; }
+    transition: color 0.3s; }
     .header__sm-menu-link a:hover {
-      color: #0062b9; }
+      color: #1f2028; }
   .header__sm-menu-link:first-child a {
     border-top: 1px solid #eee; }
   .header__sm-menu-link-last {
